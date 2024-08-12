@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Grey+Qo&family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Temperature Converter</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
+</head>
+<body>
+    <div class="container">
+        <div class="fahren">
+            <span>FAHRENHEIT [<code>&#8457;</code>]</span>
+            <input type="text" id="fahren-input" placeholder="Enter" autocomplete="off">
+
+            <!--
+            <span id="message">
+                <img src="./images/cold.png" alt="cold temperature">
+            </span>
+            -->
+        </div>
+
+        <div class="second-container">
+            <div class="celsius">
+                <span>CELSIUS [<code>&#176;</code>C]</span>
+                <input type="text" id="celsius-input" placeholder="Enter" autocomplete="off">
+
+                <!--
+                <span id="message">
+                    <img src="./images/cold.png" alt="cold temperature">
+                </span>
+                -->
+            </div>
+            
+            <div class="kelvin">
+                <span>KELVIN [<code>&#176;</code>K]</span>
+                <input type="text" id="kelvin-input" placeholder="Enter" autocomplete="off">
+                
+                <!--
+                <span id="message">
+                    <img src="./images/cold.png" alt="cold temperature">
+                </span>
+                -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

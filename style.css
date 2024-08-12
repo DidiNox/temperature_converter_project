@@ -1,0 +1,139 @@
+/* STYLING BEGINS HERE */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", serif;
+    background: url("./images/bckgrd.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    width: 550px;
+    height: 550px;
+    display: block;
+    margin: 0 auto;
+    background: #fc7f60;
+    margin-top: 20px;
+    border: 2px double #a14aa1;
+    border-radius: 15px;
+}
+
+.second-container {
+    display: flex;
+    height: 60%;
+}
+
+.fahren {
+    width: 100%;
+    height: 40%;
+    background: #3f2a8d;
+    border-bottom-left-radius: 150px;
+    position: relative;
+}
+
+.celsius {
+    width: 50%;
+    height: 100%;
+    background: #4aa4e6;
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 3px;
+    position: relative;
+}
+
+.kelvin {
+    width: 50%;
+    height: 100%;
+    background: #ba000d;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 3px;
+    position: relative;
+}
+
+#fahren-input {
+    width: 130px;
+    height: 60px;
+    position: absolute;
+    top: 36%;
+    left: 35%;
+    padding: 16px 15px;
+    background: #f8baab;
+    border: none;
+    /* border: 1px solid #3f2a8d; */
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    color: whitesmoke;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+}
+
+#celsius-input {
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    background: #f8baab;
+    padding: 16px 15px;
+    border: none;
+    /* border: 1px solid #346282; */
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    color: whitesmoke;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+}
+
+#kelvin-input {
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    background: #f8baab;
+    border: none;
+    /* border: 1px solid #964b50; */
+    padding: 16px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    color: whitesmoke;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+}
+
+.container span {
+    font-size: 18px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    color: whitesmoke;
+    position: relative;
+    top: 20%;
+    right: 10%;
+}
+
+/* MESSAGE CONTAINER */
+#message {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    left: 28%;
+}
+
+#message img {
+    width: 50px;
+    margin: 0 auto;
+    display: none;
+}
